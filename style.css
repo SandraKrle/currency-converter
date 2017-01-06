@@ -1,0 +1,35 @@
+html {
+    font-size: 20px;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+.results {
+    font-size: 1rem;
+}
+
+.dropdown {
+    margin-bottom: 50px;
+}
+
+.historic-section {
+    text-align: center;
+}
+
+.historic-currency {
+    border: 2px solid #ce9e9e;
+    margin: 30px auto;
+    padding: 10px;
+    color: red;
+    max-width: 290px;
+}
+
+.info-text {
+    margin-top: 5px;
+}
+
+.glyphicon-info-sign {
+    color: #ce9e9e;
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Currency converter</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-md-offset-3">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h4 class="panel-title">SEK Currency Converter</h4>
+                    </div>
+                    <div class="panel-body">
+                        <h5>200 Swedish Kronor equals to</h5>
+                        <p class="results">0</p>
+                        <div class="dropdown">
+                            <label>Select currency:</label>
+                            <select class="currency-list">
+                                <option>--Select--</option>
+                            </select>
+                        </div>
+                        <div class="historic-section">
+                            <button class="btn btn-default disabled history-btn" onclick="fetchHistoricData()">
+                                Compare historic values
+                            </button>
+                            <div class="info-text">
+                                <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                                <small class="text-muted">For period March 26th, 2015 till June 13th, 2016</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="functions.js"></script>
+</body>
+
+</html>
